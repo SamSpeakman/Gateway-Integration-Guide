@@ -70,5 +70,5 @@ For the Direct Integration, this allows you to collect the Cardholder’s paymen
 
 The URL is mandatory for the Hosted Integration and optional for the Direct Integration. It is not supported by the Batch Integration.
 
-The redirectURL must be a fully qualified URL, containing at least the scheme and host components. 
+The redirectURL must be a fully qualified URL, containing at least the scheme and host components.
 

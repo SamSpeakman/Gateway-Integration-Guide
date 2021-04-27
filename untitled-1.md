@@ -46,7 +46,7 @@ If you use Hosted Payment Pages with the Hosted Integration or Hosted Payment Fi
 
 If your website collects and/or stores sensitive Cardholder data, such as the card number \(PAN\) or card security code \(CVV/CV2\), then your webserver must have an SSL certificate and serve all payment forms using HTTPS. You will also need a higher level of PCI DSS compliance and to complete a PCI validation form annually.
 
-For more information, please see https://www.pcisecuritystandards.org/
+For more information, please see [https://www.pcisecuritystandards.org/](https://www.pcisecuritystandards.org/)
 
 ## Integration Details
 
@@ -58,7 +58,7 @@ The request should have a Content-Type: application/x-www-form-urlencoded HTTP h
 
 Example URL encoding:
 
-merchantID=100001&action=SALE&type=1&amount=1001&currencyCode=826&countryCode=826&transactionUnique=55f6db1c81d95&orderRef=Test+purchase&customerPostCode=NN17+8YG&responseCode=0&responseMessage=AUTHCODE%3A350333&state=captured&xref=15091702MG47WN32MM88LPK&cardNumber=4929+4212+3460+0821&cardExpiryDate=1215
+merchantID=100001&action=SALE&type=1&amount=1001¤cyCode=826&countryCode=826&transactionUnique=55f6db1c81d95&orderRef=Test+purchase&customerPostCode=NN17+8YG&responseCode=0&responseMessage=AUTHCODE%3A350333&state=captured&xref=15091702MG47WN32MM88LPK&cardNumber=4929+4212+3460+0821&cardExpiryDate=1215
 
 _**Please note that the field names are cAsE sEnSiTiVe**._
 
@@ -147,7 +147,7 @@ The **callbackURL** must be a fully qualified URL, containing at least the schem
 
 Most integration field values are either numerical or textual; and either free format or from a range of predetermined values. Some field values are records or arrays of records.
 
-Unless otherwise stated, numerical values are whole integer values with no decimal points. Textual values should use the UTF-8 character set and will be automatically truncated if too long, unless stated otherwise in the field’s description. Textual values may be transliterated[\[1\]]() when sending to third parties such as Acquirers but the original value is stored by Gateway and displayed in the Merchant Management System.
+Unless otherwise stated, numerical values are whole integer values with no decimal points. Textual values should use the UTF-8 character set and will be automatically truncated if too long, unless stated otherwise in the field’s description. Textual values may be transliterated[\[1\]](untitled-1.md) when sending to third parties such as Acquirers but the original value is stored by Gateway and displayed in the Merchant Management System.
 
 Field values should use the following formats unless otherwise stated in the field’s description:
 
@@ -229,7 +229,7 @@ The **captureDelay** field can be used to state whether the transaction should b
 
 _**This action is not supported by the Hosted Integration.**_
 
-###  CAPTURE
+### CAPTURE
 
 This will capture an existing transaction, identified using the **xref** request field, making it available for settlement at the next available opportunity. It can only be performed on transactions that have been authorised but not yet captured. An **amount** to capture may be specified but must not exceed the original amount authorised.
 
@@ -265,5 +265,5 @@ If you use Hosted Payment Pages with the Hosted Integration or Hosted Payment Fi
 
 If your website collects and/or stores sensitive Cardholder data, such as the card number \(PAN\) or card security code \(CVV/CV2\), then your webserver must have an SSL certificate and serve all payment forms using HTTPS. You will also need a higher level of PCI DSS compliance and to complete a PCI validation form annually.
 
-For more information, please see https://www.pcisecuritystandards.org/
+For more information, please see [https://www.pcisecuritystandards.org/](https://www.pcisecuritystandards.org/)
 

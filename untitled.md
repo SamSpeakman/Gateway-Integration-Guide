@@ -4,13 +4,3 @@
 
 {% page-ref page="1.2-terminology.md" %}
 
-
-
-
-
-
-
-
-
-
-

@@ -4,8 +4,6 @@ description: V1.06
 
 # Gateway Integration Guide
 
-
-
 | Version | Date | Update information |
 | :--- | :--- | :--- |
 | 1.01 | 13/11/20 | Added version and version control to guide. |
